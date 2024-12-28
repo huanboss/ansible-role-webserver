@@ -1,0 +1,11 @@
+---
+# tasks file for webserver
+
+- name: Install Nginx
+  import_tasks: installNginx.yaml
+
+- name: Configure Nginx
+  import_tasks: configureNginx.yaml
+
+- name: Copy File
+  import_tasks: copyFile.yaml

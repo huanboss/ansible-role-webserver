@@ -1,0 +1,5 @@
+# Task 1: Cài đặt Nginx
+- name: Cài đặt Nginx
+  ansible.builtin.package:
+    name: nginx
+    state: present

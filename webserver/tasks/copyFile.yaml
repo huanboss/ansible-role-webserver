@@ -1,0 +1,5 @@
+# Task 3: Sao chép file index.html
+- name: Sao chép file index.html
+  ansible.builtin.copy:
+    src: index.html
+    dest: /var/www/html/index.html
